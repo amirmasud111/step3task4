@@ -1,0 +1,130 @@
+body {
+    background-image: linear-gradient(-90deg, yellow, lightblue);
+    font-family: "segoe ui";
+}
+
+#mother {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#Add {
+    font-weight: bold;
+    font-family: "segoe ui";
+    width: 10%;
+    border-radius: 5px;
+    outline: none;
+}
+
+#input {
+    padding-left: 5px;
+    font-family: "segoe ui";
+    width: 55%;
+    margin-bottom: 0px;
+    margin-left: 21%;
+    background-color: #ffa;
+    outline: none;
+    border-radius: 5px;
+}
+
+.boxes {
+    border-radius: 15px;
+    border: 3px solid #ff5;
+    width: 48.5%;
+    box-shadow: -10px 10px 20px #ff5;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+li {
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media only screen and (max-width:487px) {
+    #mother {
+        width: 460px;
+    }
+}
+
+.filter {
+    width: 20%;
+    margin-left: 10%;
+    font-size: 1vw;
+    font-weight: bold;
+    font-family: "segoe ui";
+    border-radius: 5px;
+    outline: none;
+}
+
+.checke {
+    padding-left: 3%;
+    padding-bottom: 0%;
+    width: 7%;
+    border-radius: 5px;
+    margin-top: 4px;
+    float: right;
+    margin-right: 4px;
+    cursor: pointer;
+    height: 24px;
+    font-weight: normal;
+}
+
+.checke:hover {
+    background-color: #ffa;
+}
+
+.close {
+    float: right;
+    margin-right: 4px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 3px;
+    width: 7%;
+    padding-left: 3.5%;
+    padding-bottom: 0.5%;
+}
+
+.close:hover {
+    background-color: #faa;
+}
+
+.Edit {
+    float: right;
+    height: 15px;
+    margin-top: 9px;
+    margin-right: 10px;
+    padding-left: 1.5%;
+    padding-bottom: 0.5%;
+    padding-right: 1.5%;
+    border-radius: 5px;
+}
+
+.Edit:hover {
+    box-shadow: 0px 0px 20px #aac;
+}
+
+.EditInput {
+	width: 25%;
+    margin-top: 2px;
+    font-family: "segoe ui";
+    padding-left: 2px;
+    background-color: #ffa;
+    outline: none;
+    border-radius: 5px;
+}
+
+#filterAll {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px;
+}

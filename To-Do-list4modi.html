@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body>
+    <div id="mother">
+        <input id="input" placeholder="What needs to be done?">
+        <button id="Add" onclick="newItem()"> Add </button>
+        <div class="boxes">
+            <button class="filter" id="filterAll" onclick="showAll()">All</button>
+            <button class="filter" id="filterActive" onclick="showActive()">Active</button>
+            <button class="filter" id="filterComplated" onclick="showcp()">Complated</button>
+            <ul id="ToDolist"></ul>
+        </div>
+    </div>
+	<script src="myscripts.js"></script>
+</body>
+
+</html>
+
+
+
